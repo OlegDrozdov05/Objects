@@ -58,7 +58,7 @@ const birds = [new Duck(), new Penguin()];
 birds.forEach(bird => bird.action());
  
 
- // 3. Был нарушен принцип единственной ответственности. Исправленный код.
+ // 3. Был нарушен принцип единственной ответственности. Исправленный код:
 
 class Database {
   save(user) {
